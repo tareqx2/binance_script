@@ -5,7 +5,7 @@ binance.options({
   'APISECRET':config.api_secret,
 });
 
-let retry = setInterval(setLimitOrder,10000);
+let retry = setInterval(setLimitOrder,config.interval*1000);
 
 function setLimitOrder() {
   binance.sell("NANOBTC", config.xrb_amount, config.sell_price,{type:'LIMIT'}, (error, response) => {
