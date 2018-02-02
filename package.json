@@ -1,0 +1,15 @@
+{
+  "name": "pumpbot",
+  "version": "1.0.0",
+  "description": "auto-buy a coin with some config settings",
+  "main": "pumpBot.js",
+  "dependencies": {
+    "binance": "^1.1.2",
+    "node-binance-api": "^0.3.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
